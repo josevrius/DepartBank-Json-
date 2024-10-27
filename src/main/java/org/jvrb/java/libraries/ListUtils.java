@@ -1,6 +1,6 @@
 package org.jvrb.java.libraries;
 
-import org.jvrb.java.entities.account.Account;
+import org.jvrb.java.entities.Account;
 
 import java.util.Collections;
 import java.util.Comparator;

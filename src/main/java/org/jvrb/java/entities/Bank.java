@@ -1,9 +1,8 @@
-package org.jvrb.java.entities.bank;
+package org.jvrb.java.entities;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import org.jvrb.java.entities.account.Account;
 import org.jvrb.java.exceptions.AccountException;
 import org.jvrb.java.libraries.EnterUtils;
 import org.jvrb.java.libraries.ListUtils;

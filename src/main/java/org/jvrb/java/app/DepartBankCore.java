@@ -1,7 +1,7 @@
 package org.jvrb.java.app;
 
-import org.jvrb.java.entities.account.Account;
-import org.jvrb.java.entities.bank.Bank;
+import org.jvrb.java.entities.Account;
+import org.jvrb.java.entities.Bank;
 import org.jvrb.java.libraries.EnterUtils;
 import org.jvrb.java.messages.MSG_ES;
 

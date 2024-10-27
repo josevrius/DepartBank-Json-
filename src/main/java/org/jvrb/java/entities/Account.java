@@ -1,6 +1,5 @@
-package org.jvrb.java.entities.account;
+package org.jvrb.java.entities;
 
-import org.jvrb.java.entities.bank.Bank;
 import org.jvrb.java.exceptions.AccountException;
 import org.jvrb.java.interfaces.IOperations;
 import org.jvrb.java.libraries.CurrencyUtils;
@@ -142,7 +141,7 @@ public final class Account implements IOperations {
         }
     }
 
-    public void addMovementToHistory(double amount, String operation) {
+    void addMovementToHistory(double amount, String operation) {
         String formattedDate = DateUtils.getCurrentDate();
         String formattedAmount = CurrencyUtils.getCurrency(amount);
         String formattedBalance = CurrencyUtils.getCurrency(balance);

@@ -1,6 +1,6 @@
 package org.jvrb.java.app;
 
-import org.jvrb.java.entities.bank.Bank;
+import org.jvrb.java.entities.Bank;
 
 public final class DepartBank {
 
